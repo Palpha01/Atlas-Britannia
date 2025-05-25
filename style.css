@@ -1,0 +1,236 @@
+*{
+    text-decoration: none;
+    margin: 0;
+}
+
+/* navbar */
+
+.navbar{
+    background: crimson;
+    font-family: 'Calibri';
+    padding: 10px 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 35px; font-weight: 600; color: white;
+}
+ul {
+    list-style: none;
+    background: crimson;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+ul li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+ul li ul.dropdown li {
+    display: block;
+}
+ul li ul.dropdown {
+    width: 140px;
+    background-color: crimson;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+ul li a:hover{
+    background: maroon;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+.search-container{
+    background-color: aliceblue;
+    margin-left: 10px;
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px;
+    width: auto;
+}
+
+.search-container input{
+    border-style: none;
+}
+
+.search-container input:focus{
+    border-style: none;
+}
+
+/* header */
+
+.hero {
+    color: aliceblue;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content {
+    background-color: crimson;
+    font-family: 'Calibri';
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+/* portals */
+
+h3 {
+    color: crimson;
+    font-size: 30px;
+    align-items: center;
+    font-family: 'Calibri';
+    padding: 10px 20px;
+}
+
+.portal-flex {
+    display: flex;
+    margin: auto;    
+}
+
+.Britain {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    box-sizing: border-box;
+    gap: 5px;
+}
+
+.englandbox {
+    background-color: silver;
+    width: 50%;
+    border-radius: 4%;
+    border: 5px solid grey;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Calibri';
+    text-align: center;
+    
+}
+
+.englandbox:hover {
+    background-color: maroon;
+    border-radius: 4%;
+    border: 5px solid red;
+}
+
+.scotlandbox {
+    background-color: silver;
+    width: 50%;
+    border-radius: 4%;
+    border: 5px solid grey;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Calibri';
+    text-align: center;
+}
+
+.scotlandbox:hover {
+    background-color: skyblue;
+    border-radius: 4%;
+    border: 5px solid blue;
+}
+
+.walesbox {
+    background-color: silver;
+    width: 50%;
+    border-radius: 4%;
+    border: 5px solid grey;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Calibri';
+    text-align: center;
+}
+
+.walesbox:hover {
+    background-color: red;
+    border-radius: 4%;
+    border: 5px solid green;
+}
+
+.nirelandbox {
+    background-color: silver;
+    width: 50%;
+    border-radius: 4%;
+    border: 5px solid grey;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Calibri';
+    text-align: center;
+}
+
+.nirelandbox:hover {
+    background-color: limegreen;
+    border-radius: 4%;
+    border: 5px solid orangered;
+}
+
+.crowndependbox {
+    background-color: silver;
+    width: 50%;
+    border-radius: 4%;
+    border: 5px solid grey;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Calibri';
+    text-align: center;
+}
+
+.crowndependbox:hover {
+    background-color: goldenrod;
+    border-radius: 4%;
+    border: 5px solid red;
+}
+
+.englandbox p,
+.scotlandbox p,
+.walesbox p,
+.nirelandbox p,
+.crowndependbox p {
+    padding: 10px;
+    font-size: 20px;
+    color: crimson;
+}
+
+.englandbox img,
+.scotlandbox img,
+.walesbox img,
+.nirelandbox img,
+.crowndependbox img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+/* footer */
+
+footer {
+    color: aliceblue;
+    background-color: crimson;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Calibri';
+}
