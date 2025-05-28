@@ -129,10 +129,10 @@ h3 {
 }
 
 .englandbox {
-    background-color: dimgrey;
+    background-color: #fcffe3;
     width: 50%;
     border-radius: 4%;
-    border: 5px solid darkgrey;
+    border: 5px solid #ffcdb2;
     padding: 10px;
     margin-bottom: 10px;
     font-family: 'Fantasy';
@@ -147,10 +147,10 @@ h3 {
 }
 
 .scotlandbox {
-    background-color: dimgray;
+    background-color: #fcffe3;
     width: 50%;
     border-radius: 4%;
-    border: 5px solid darkgrey;
+    border: 5px solid #ffcdb2;
     padding: 10px;
     margin-bottom: 10px;
     font-family: 'Fantasy';
@@ -164,10 +164,10 @@ h3 {
 }
 
 .walesbox {
-    background-color: dimgrey;
+    background-color: #fcffe3;
     width: 50%;
     border-radius: 4%;
-    border: 5px solid darkgrey;
+    border: 5px solid #ffcdb2;
     padding: 10px;
     margin-bottom: 10px;
     font-family: 'Fantasy';
@@ -181,10 +181,10 @@ h3 {
 }
 
 .nirelandbox {
-    background-color: dimgrey;
+    background-color: #fcffe3;
     width: 50%;
     border-radius: 4%;
-    border: 5px solid darkgrey;
+    border: 5px solid #ffcdb2;
     padding: 21px 10px;
     margin-bottom: 10px;
     font-family: 'Fantasy';
@@ -198,10 +198,10 @@ h3 {
 }
 
 .crowndependbox {
-    background-color: dimgrey;
+    background-color: #fcffe3;
     width: 50%;
     border-radius: 4%;
-    border: 5px solid darkgrey;
+    border: 5px solid #ffcdb2;
     padding: 10px;
     margin-bottom: 10px;
     font-family: 'Fantasy';
