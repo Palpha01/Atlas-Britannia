@@ -122,7 +122,7 @@ h3 {
     height: 200%;
     display: flex;
     align-items: center;
-    padding: 50px;
+    padding: 20px 10px;
     margin: 50px;
     box-sizing: border-box;
     gap: 5px;
