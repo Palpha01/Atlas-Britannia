@@ -120,6 +120,7 @@ h3 {
 
 .Britain {
     width: 90%;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     padding: 20px 10px;
