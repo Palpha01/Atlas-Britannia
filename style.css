@@ -144,6 +144,7 @@ h3 {
     background-color: maroon;
     border-radius: 4%;
     border: 5px solid red;
+    color: #fcffe3;
 }
 
 .scotlandbox {
@@ -161,6 +162,7 @@ h3 {
     background-color:cadetblue;
     border-radius: 4%;
     border: 5px solid blue;
+    color: #fcffe3;
 }
 
 .walesbox {
@@ -178,6 +180,7 @@ h3 {
     background-color: red;
     border-radius: 4%;
     border: 5px solid green;
+    color: #fcffe3;
 }
 
 .nirelandbox {
@@ -195,6 +198,7 @@ h3 {
     background-color: limegreen;
     border-radius: 4%;
     border: 5px solid orangered;
+    color: #fcffe3;
 }
 
 .crowndependbox {
@@ -212,6 +216,7 @@ h3 {
     background-color: goldenrod;
     border-radius: 4%;
     border: 5px solid red;
+    color: #fcffe3;
 }
 
 .englandbox p,
