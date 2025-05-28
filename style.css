@@ -52,7 +52,7 @@ ul li ul.dropdown {
 }
 
 ul li a:hover{
-    background: maroon;
+    background: #8f001e;
 }
 ul li:hover ul.dropdown{
     display: block;
@@ -221,7 +221,7 @@ h3 {
 .crowndependbox p {
     padding: 10px;
     font-size: 20px;
-    color: aliceblue;
+    color: #8f001e;
 }
 
 .englandbox img,
