@@ -4,32 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
+    <!-- logo in title -->
+    <link rel="icon" href="Images/Flag_of_the_United_Kingdom.png">
     <title>Atlas Britannia</title>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navdiv">
-            <div class="logo"><a href="index.html">Atlas Britannia</a> </div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li>
-                    <a href="#">Great Britain</a>
-                    <ul class="dropdown">
-                        <li><a class="active" href="england.html">England</a></li>
-                        <li><a href="#">Scotland</a></li>
-                        <li><a href="#">Wales</a></li>
-                        <li><a href="#">N.Ireland</a></li>
-                        <li><a href="#">Crown Dependencies</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">About</a></li>
-            </ul>
-            <div class="search-container">
-                <input type="text" placeholder="Search...">
-                    <i class="fa fa-search"></i>
-            </div>
+    <header>
+        <a class="logo" href="index.html">Atlas Britannia</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <p>Great Britain
+                <span class="dropdown">
+                    <a class="active" href="england.html">England</a>
+                    <a href="#">Scotland</a>
+                    <a href="#">Wales</a>
+                    <a href="#">N.Ireland</a>
+                    <a href="#">Crown Dependencies</a>
+                </span>
+            </p>
+            <a href="#">About</a>
+        </nav>
+        <div class="search-container">
+            <input type="text" placeholder="Search...">
+                <i class="fa fa-search"></i>
         </div>
-    </nav>
+    </header>
 
     <footer>
         <p>@2025 Palpha01 Ltd.</p>

@@ -60,6 +60,7 @@ header{
             &:hover .dropdown {
                 display: grid;
                 pointer-events: auto;
+                background-color: #e00022;
             }
         }
     }
@@ -125,6 +126,11 @@ main{
                 flex-direction: column;
                 justify-content: space-between;
                 gap: 10px;
+                // when you hover any <a> inside .Britain
+                &:hover{
+                    cursor: pointer;
+                }
+                // the img inside all <a>
                 img{
                     width: 200px;
                 }
@@ -133,6 +139,41 @@ main{
                     width: fit-content;
                     margin: auto; //this centers it
                     padding: 5px 20px;
+                }
+                &:nth-child(1){
+                    background-color: #ffcdb2;
+                    &:hover{
+                        background-color: whitesmoke;
+                        border-color: crimson;
+                    }
+                }
+                &:nth-child(2){
+                    background-color: #ffcdb2;
+                    &:hover{
+                        background-color: skyblue;
+                        border-color: blue;
+                    }
+                }
+                &:nth-child(3){
+                    background-color: #ffcdb2;
+                    &:hover{
+                        background-color: lawngreen;
+                        border-color: crimson;
+                    }
+                }
+                &:nth-child(4){
+                    background-color: #ffcdb2;
+                    &:hover{
+                        background-color: orange;
+                        border-color: green;
+                    }
+                }
+                &:nth-child(5){
+                    background-color: #ffcdb2;
+                    &:hover{
+                        background-color: gold;
+                        border-color: crimson;
+                    }
                 }
             }
         }

@@ -64,6 +64,7 @@ header nav p .dropdown:hover {
 header nav p:hover .dropdown {
   display: grid;
   pointer-events: auto;
+  background-color: #e00022;
 }
 header .search-container {
   background-color: white;
@@ -128,6 +129,9 @@ main section.selection-section .Britain a {
   justify-content: space-between;
   gap: 10px;
 }
+main section.selection-section .Britain a:hover {
+  cursor: pointer;
+}
 main section.selection-section .Britain a img {
   width: 200px;
 }
@@ -137,6 +141,41 @@ main section.selection-section .Britain a p {
   width: fit-content;
   margin: auto;
   padding: 5px 20px;
+}
+main section.selection-section .Britain a:nth-child(1) {
+  background-color: #ffcdb2;
+}
+main section.selection-section .Britain a:nth-child(1):hover {
+  background-color: whitesmoke;
+  border-color: crimson;
+}
+main section.selection-section .Britain a:nth-child(2) {
+  background-color: #ffcdb2;
+}
+main section.selection-section .Britain a:nth-child(2):hover {
+  background-color: skyblue;
+  border-color: blue;
+}
+main section.selection-section .Britain a:nth-child(3) {
+  background-color: #ffcdb2;
+}
+main section.selection-section .Britain a:nth-child(3):hover {
+  background-color: lawngreen;
+  border-color: crimson;
+}
+main section.selection-section .Britain a:nth-child(4) {
+  background-color: #ffcdb2;
+}
+main section.selection-section .Britain a:nth-child(4):hover {
+  background-color: orange;
+  border-color: green;
+}
+main section.selection-section .Britain a:nth-child(5) {
+  background-color: #ffcdb2;
+}
+main section.selection-section .Britain a:nth-child(5):hover {
+  background-color: gold;
+  border-color: crimson;
 }
 
 footer {
