@@ -178,6 +178,29 @@ main section.selection-section .Britain a:nth-child(5):hover {
   border-color: crimson;
 }
 
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  text-align: center;
+}
+.hero-image #englandhero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-image #englandhero img {
+  width: 200px;
+}
+.hero-image #englandhero p {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #e00022;
+}
+
 footer {
   color: aliceblue;
   background-color: #e00022;
