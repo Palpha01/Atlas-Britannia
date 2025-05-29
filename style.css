@@ -185,16 +185,16 @@ main section.selection-section .Britain a:nth-child(5):hover {
   padding: 50px 0;
   text-align: center;
 }
-.hero-image #englandhero, .hero-image #scotlandhero, .hero-image #waleshero, .hero-image #nirelandhero, .hero-image #crowndependhero {
+.hero-image #britainhero, .hero-image #englandhero, .hero-image #scotlandhero, .hero-image #waleshero, .hero-image #nirelandhero, .hero-image #crowndependhero {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.hero-image #englandhero img, .hero-image #scotlandhero img, .hero-image #waleshero img, .hero-image #nirelandhero img, .hero-image #crowndependhero img {
+.hero-image #britainhero img, .hero-image #englandhero img, .hero-image #scotlandhero img, .hero-image #waleshero img, .hero-image #nirelandhero img, .hero-image #crowndependhero img {
   width: 200px;
   margin-bottom: 10px;
 }
-.hero-image #englandhero p, .hero-image #scotlandhero p, .hero-image #waleshero p, .hero-image #nirelandhero p, .hero-image #crowndependhero p {
+.hero-image #britainhero p, .hero-image #englandhero p, .hero-image #scotlandhero p, .hero-image #waleshero p, .hero-image #nirelandhero p, .hero-image #crowndependhero p {
   font-size: 18px;
   font-style: italic;
   font-weight: bold;
