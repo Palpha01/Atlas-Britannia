@@ -185,20 +185,20 @@ main section.selection-section .Britain a:nth-child(5):hover {
   padding: 50px 0;
   text-align: center;
 }
-.hero-image #englandhero {
+.hero-image #englandhero, .hero-image #scotlandhero {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.hero-image #englandhero img {
+.hero-image #englandhero img, .hero-image #scotlandhero img {
   width: 200px;
 }
-.hero-image #englandhero p {
+.hero-image #englandhero p, .hero-image #scotlandhero p {
   font-size: 18px;
   font-style: italic;
   font-weight: bold;
   margin-top: 10px;
-  color: #e00022;
+  color: #8f001e;
 }
 
 footer {
