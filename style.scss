@@ -216,7 +216,7 @@ h2 {
         color:#e00022;
     }
 
-.landmark-grid {
+.eatery-grid, .landmark-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
@@ -229,7 +229,7 @@ h2 {
     
     img {
         display: block;
-        width: 100%;
+        width: 70%;
         aspect-ratio: 1/1;
         object-fit: cover;
         object-position: center;
@@ -243,7 +243,7 @@ h2 {
         justify-content: center;
         align-items: center;
         font-size: 2rem;
-        padding: 1rem;
+        padding: 2rem;
         background: rgba(255,255,255,.4);
         transition: 200ms ease-in-out;
         opacity: 0;
