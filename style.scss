@@ -209,6 +209,24 @@ main{
     }
 }
 
+// about
+.about {
+    color: #e00022;
+    font-family: 'Fantasy';
+    font-weight: bold;
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+
+    p {
+        margin: 0;
+    }
+}
+
+
 footer {
     color: aliceblue;
     background-color: #e00022;
