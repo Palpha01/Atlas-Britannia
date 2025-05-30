@@ -202,6 +202,51 @@ main section.selection-section .Britain a:nth-child(5):hover {
   color: #8f001e;
 }
 
+h2 {
+  text-align: center;
+  color: #e00022;
+}
+
+.landmark-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+.landmark-grid .img-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.landmark-grid img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  transition: transform 0.2s ease-in-out;
+}
+.landmark-grid .content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.4);
+  transition: 200ms ease-in-out;
+  opacity: 0;
+  color: black;
+}
+.landmark-grid:hover img {
+  transform: scale(1.05);
+}
+.landmark-grid:hover .content {
+  opacity: 1;
+}
+
 .about {
   color: #e00022;
   font-family: "Fantasy";
@@ -213,8 +258,7 @@ main section.selection-section .Britain a:nth-child(5):hover {
 }
 .about h2 {
   font-weight: bold;
-  margin: 0;
-  padding: 20px 10px;
+  margin: 20px;
 }
 .about p {
   margin: 0;

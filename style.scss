@@ -209,6 +209,58 @@ main{
     }
 }
 
+// grids
+
+h2 {
+        text-align: center;
+        color:#e00022;
+    }
+
+.landmark-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+
+    .img-wrapper {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    img {
+        display: block;
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        object-position: center;
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .content {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        padding: 1rem;
+        background: rgba(255,255,255,.4);
+        transition: 200ms ease-in-out;
+        opacity: 0;
+        color: black;
+    }
+
+    &:hover {
+        img {
+            transform: scale(1.05);
+        }
+
+        .content {
+            opacity: 1;
+        }
+    }
+}
+
 // about
 .about {
     color: #e00022;
@@ -221,8 +273,7 @@ main{
 
     h2 {
         font-weight: bold;
-        margin: 0;
-        padding: 20px 10px;
+        margin: 20px;    
     }
 
     p {
