@@ -213,16 +213,21 @@ main{
 .about {
     color: #e00022;
     font-family: 'Fantasy';
-    font-weight: bold;
     padding: 50px 20px;
     max-width: 800px;
     margin: 50px auto;
     text-align: center;
-    font-size: 18px;
-    line-height: 1.6;
+    font-size: 20px;
+
+    h2 {
+        font-weight: bold;
+        margin: 0;
+        padding: 20px 10px;
+    }
 
     p {
         margin: 0;
+        line-height: 1.8;
     }
 }
 
