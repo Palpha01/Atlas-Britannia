@@ -216,7 +216,7 @@ h2 {
         color:#e00022;
     }
 
-.eatery-grid, .landmark-grid {
+.eatery-grid, .tradition-grid, .landmark-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
