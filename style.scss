@@ -216,7 +216,7 @@ h2 {
         color:#e00022;
     }
 
-.eatery-grid, .tradition-grid, .landmark-grid {
+.flag-grid, .eatery-grid, .tradition-grid, .landmark-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
@@ -255,7 +255,9 @@ h2 {
         color: rgb(255, 255, 255);
     }
 
-    #Fshnchps:hover, #Tea:hover, #Boxing:hover, #Fawkes:hover {
+    // england
+
+    #img1:hover, #img2:hover, #img3:hover, #img4:hover, #img5:hover, #img6:hover, #img7:hover, #img8:hover, #img9:hover, #img10:hover, #img11:hover, #img12:hover {
         img {
             transform: scale(1.05);
             filter: blur(5px);
@@ -265,7 +267,29 @@ h2 {
             opacity: 1;
         }
     }
+
+    // scotland
+
+    // wales
+
+    // nireland
+
+    // crowndepend
 }
+
+// general, demographic, and funfact
+.general, .demographic, .funfact {
+    color: #8f001e;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 12px;
+    font-family: 'Fantasy';
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+
 
 // about
 .about {

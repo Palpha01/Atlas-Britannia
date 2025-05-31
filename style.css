@@ -207,19 +207,19 @@ h2 {
   color: #e00022;
 }
 
-.eatery-grid, .tradition-grid, .landmark-grid {
+.flag-grid, .eatery-grid, .tradition-grid, .landmark-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
   padding: 1rem;
 }
-.eatery-grid .img-wrapper, .tradition-grid .img-wrapper, .landmark-grid .img-wrapper {
+.flag-grid .img-wrapper, .eatery-grid .img-wrapper, .tradition-grid .img-wrapper, .landmark-grid .img-wrapper {
   position: relative;
   overflow: hidden;
   margin: 0;
 }
-.eatery-grid img, .tradition-grid img, .landmark-grid img {
+.flag-grid img, .eatery-grid img, .tradition-grid img, .landmark-grid img {
   display: block;
   width: 100%;
   max-width: 250px;
@@ -231,7 +231,7 @@ h2 {
   transition: transform 0.2s ease-in-out;
   margin: 0;
 }
-.eatery-grid .content, .tradition-grid .content, .landmark-grid .content {
+.flag-grid .content, .eatery-grid .content, .tradition-grid .content, .landmark-grid .content {
   position: absolute;
   inset: 0;
   word-break: normal;
@@ -245,12 +245,23 @@ h2 {
   opacity: 0;
   color: rgb(255, 255, 255);
 }
-.eatery-grid #Fshnchps:hover img, .eatery-grid #Tea:hover img, .eatery-grid #Boxing:hover img, .eatery-grid #Fawkes:hover img, .tradition-grid #Fshnchps:hover img, .tradition-grid #Tea:hover img, .tradition-grid #Boxing:hover img, .tradition-grid #Fawkes:hover img, .landmark-grid #Fshnchps:hover img, .landmark-grid #Tea:hover img, .landmark-grid #Boxing:hover img, .landmark-grid #Fawkes:hover img {
+.flag-grid #img1:hover img, .flag-grid #img2:hover img, .flag-grid #img3:hover img, .flag-grid #img4:hover img, .flag-grid #img5:hover img, .flag-grid #img6:hover img, .flag-grid #img7:hover img, .flag-grid #img8:hover img, .flag-grid #img9:hover img, .flag-grid #img10:hover img, .flag-grid #img11:hover img, .flag-grid #img12:hover img, .eatery-grid #img1:hover img, .eatery-grid #img2:hover img, .eatery-grid #img3:hover img, .eatery-grid #img4:hover img, .eatery-grid #img5:hover img, .eatery-grid #img6:hover img, .eatery-grid #img7:hover img, .eatery-grid #img8:hover img, .eatery-grid #img9:hover img, .eatery-grid #img10:hover img, .eatery-grid #img11:hover img, .eatery-grid #img12:hover img, .tradition-grid #img1:hover img, .tradition-grid #img2:hover img, .tradition-grid #img3:hover img, .tradition-grid #img4:hover img, .tradition-grid #img5:hover img, .tradition-grid #img6:hover img, .tradition-grid #img7:hover img, .tradition-grid #img8:hover img, .tradition-grid #img9:hover img, .tradition-grid #img10:hover img, .tradition-grid #img11:hover img, .tradition-grid #img12:hover img, .landmark-grid #img1:hover img, .landmark-grid #img2:hover img, .landmark-grid #img3:hover img, .landmark-grid #img4:hover img, .landmark-grid #img5:hover img, .landmark-grid #img6:hover img, .landmark-grid #img7:hover img, .landmark-grid #img8:hover img, .landmark-grid #img9:hover img, .landmark-grid #img10:hover img, .landmark-grid #img11:hover img, .landmark-grid #img12:hover img {
   transform: scale(1.05);
   filter: blur(5px);
 }
-.eatery-grid #Fshnchps:hover .content, .eatery-grid #Tea:hover .content, .eatery-grid #Boxing:hover .content, .eatery-grid #Fawkes:hover .content, .tradition-grid #Fshnchps:hover .content, .tradition-grid #Tea:hover .content, .tradition-grid #Boxing:hover .content, .tradition-grid #Fawkes:hover .content, .landmark-grid #Fshnchps:hover .content, .landmark-grid #Tea:hover .content, .landmark-grid #Boxing:hover .content, .landmark-grid #Fawkes:hover .content {
+.flag-grid #img1:hover .content, .flag-grid #img2:hover .content, .flag-grid #img3:hover .content, .flag-grid #img4:hover .content, .flag-grid #img5:hover .content, .flag-grid #img6:hover .content, .flag-grid #img7:hover .content, .flag-grid #img8:hover .content, .flag-grid #img9:hover .content, .flag-grid #img10:hover .content, .flag-grid #img11:hover .content, .flag-grid #img12:hover .content, .eatery-grid #img1:hover .content, .eatery-grid #img2:hover .content, .eatery-grid #img3:hover .content, .eatery-grid #img4:hover .content, .eatery-grid #img5:hover .content, .eatery-grid #img6:hover .content, .eatery-grid #img7:hover .content, .eatery-grid #img8:hover .content, .eatery-grid #img9:hover .content, .eatery-grid #img10:hover .content, .eatery-grid #img11:hover .content, .eatery-grid #img12:hover .content, .tradition-grid #img1:hover .content, .tradition-grid #img2:hover .content, .tradition-grid #img3:hover .content, .tradition-grid #img4:hover .content, .tradition-grid #img5:hover .content, .tradition-grid #img6:hover .content, .tradition-grid #img7:hover .content, .tradition-grid #img8:hover .content, .tradition-grid #img9:hover .content, .tradition-grid #img10:hover .content, .tradition-grid #img11:hover .content, .tradition-grid #img12:hover .content, .landmark-grid #img1:hover .content, .landmark-grid #img2:hover .content, .landmark-grid #img3:hover .content, .landmark-grid #img4:hover .content, .landmark-grid #img5:hover .content, .landmark-grid #img6:hover .content, .landmark-grid #img7:hover .content, .landmark-grid #img8:hover .content, .landmark-grid #img9:hover .content, .landmark-grid #img10:hover .content, .landmark-grid #img11:hover .content, .landmark-grid #img12:hover .content {
   opacity: 1;
+}
+
+.general, .demographic, .funfact {
+  color: #8f001e;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 12px;
+  font-family: "Fantasy";
+  text-align: center;
+  font-size: 1.1rem;
 }
 
 .about {
