@@ -209,41 +209,47 @@ h2 {
 
 .eatery-grid, .tradition-grid, .landmark-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
   padding: 1rem;
 }
 .eatery-grid .img-wrapper, .tradition-grid .img-wrapper, .landmark-grid .img-wrapper {
   position: relative;
   overflow: hidden;
+  margin: 0;
 }
 .eatery-grid img, .tradition-grid img, .landmark-grid img {
   display: block;
-  width: 70%;
+  width: 100%;
+  max-width: 250px;
   aspect-ratio: 1/1;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
   transition: transform 0.2s ease-in-out;
+  margin: 0;
 }
 .eatery-grid .content, .tradition-grid .content, .landmark-grid .content {
   position: absolute;
   inset: 0;
+  word-break: normal;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
-  padding: 2rem;
-  background: rgba(255, 255, 255, 0.4);
+  font-size: 1.2rem;
+  padding: 1rem;
+  background: rgba(36, 32, 32, 0.4);
   transition: 200ms ease-in-out;
   opacity: 0;
-  color: black;
+  color: rgb(255, 255, 255);
 }
-.eatery-grid:hover img, .tradition-grid:hover img, .landmark-grid:hover img {
+.eatery-grid #Fshnchps:hover img, .eatery-grid #Tea:hover img, .eatery-grid #Boxing:hover img, .eatery-grid #Fawkes:hover img, .tradition-grid #Fshnchps:hover img, .tradition-grid #Tea:hover img, .tradition-grid #Boxing:hover img, .tradition-grid #Fawkes:hover img, .landmark-grid #Fshnchps:hover img, .landmark-grid #Tea:hover img, .landmark-grid #Boxing:hover img, .landmark-grid #Fawkes:hover img {
   transform: scale(1.05);
+  filter: blur(5px);
 }
-.eatery-grid:hover .content, .tradition-grid:hover .content, .landmark-grid:hover .content {
+.eatery-grid #Fshnchps:hover .content, .eatery-grid #Tea:hover .content, .eatery-grid #Boxing:hover .content, .eatery-grid #Fawkes:hover .content, .tradition-grid #Fshnchps:hover .content, .tradition-grid #Tea:hover .content, .tradition-grid #Boxing:hover .content, .tradition-grid #Fawkes:hover .content, .landmark-grid #Fshnchps:hover .content, .landmark-grid #Tea:hover .content, .landmark-grid #Boxing:hover .content, .landmark-grid #Fawkes:hover .content {
   opacity: 1;
 }
 

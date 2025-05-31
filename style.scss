@@ -218,41 +218,47 @@ h2 {
 
 .eatery-grid, .tradition-grid, .landmark-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
     padding: 1rem;
 
     .img-wrapper {
         position: relative;
         overflow: hidden;
+        margin: 0;
     }
     
     img {
         display: block;
-        width: 70%;
+        width: 100%;
+        max-width: 250px;
         aspect-ratio: 1/1;
         object-fit: cover;
         object-position: center;
         transition: transform 0.2s ease-in-out;
+        margin: 0;
     }
 
     .content {
         position: absolute;
         inset: 0;
+        word-break: normal;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 2rem;
-        padding: 2rem;
-        background: rgba(255,255,255,.4);
+        font-size: 1.2rem;
+        padding: 1rem;
+        background: rgba(36, 32, 32, 0.4);
         transition: 200ms ease-in-out;
         opacity: 0;
-        color: black;
+        color: rgb(255, 255, 255);
     }
 
-    &:hover {
+    #Fshnchps:hover, #Tea:hover, #Boxing:hover, #Fawkes:hover {
         img {
             transform: scale(1.05);
+            filter: blur(5px);
         }
 
         .content {
