@@ -10,9 +10,9 @@ searchInput.addEventListener('input', async (e) => {
 
     if (query.length > 2) {
         const { data, error } = await supabase
-            .from('your_table') // Replace with your actual table name
+            .from('uk')
             .select('*')
-            .ilike('your_column', `%${query}%`) // Replace with actual searchable column
+            .ilike('title', `%${query}%`)
 
         if (error) {
             console.error('Search error:', error.message);
@@ -20,13 +20,13 @@ searchInput.addEventListener('input', async (e) => {
         }
 
         console.log('Search results:', data);
-        displayResults(data); // function to render results
+        displayResults(data);
     }
 });
 
 function displayResults(data) {
     const resultsContainer = document.getElementById('search-results');
-    resultsContainer.innerHTML = ''; // Clear previous
+    resultsContainer.innerHTML = '';
 
     if (data.length === 0) {
         resultsContainer.innerHTML = '<p>No results found.</p>';
@@ -35,7 +35,7 @@ function displayResults(data) {
 
     data.forEach(item => {
         const div = document.createElement('div');
-        div.textContent = item.name; // Replace `name` with your column name
+        div.textContent = item.title;
         resultsContainer.appendChild(div);
     });
 }
