@@ -11,7 +11,6 @@ body {
 }
 
 a {
-  text-decoration: none;
   color: inherit;
 }
 
@@ -70,7 +69,7 @@ header .search-container {
   background-color: white;
   margin: 5px 10px;
   border-radius: 10px;
-  border-style: none;
+  border-style: 5px;
   padding: 10px;
   width: auto;
 }
